@@ -1,0 +1,111 @@
+/*/////////////////////////////////////////////////////////////////////
+ //
+ // Custom theme code styles
+ // Written by Themelize.me (http://themelize.me)
+ //
+ // This is an empty starter template for overriding styles
+ // set by Bootstrap & the theme
+ //
+ // ----------------------------------------------------
+ //
+ // Remove unused code & commenting for better performances
+ //
+ // ----------------------------------------------------
+ //
+ // @see - Usefuls tools online for editing
+ // 1. http://charliepark.org/bootstrap_buttons/ - Button style generator
+ // 2. http://www.colorzilla.com/gradient-editor/ - CSS3 gradient maker
+ //
+ //
+ /////////////////////////////////////////////////////////////////////*/
+/*
+ * --------------------------------------------------
+ * 1. General Elements
+ *--------------------------------------------------
+ */
+
+.navbar .nav > li > a {
+    padding: 20px 15px;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    background-image: none !important;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: normal;
+    text-decoration: inherit;
+    vertical-align: baseline;
+    width: auto;
+    padding-right: 0.3em;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    display: inline-block;
+    text-decoration: inherit;
+}
+a [class^="icon-"], a [class*=" icon-"] {
+    display: inline-block;
+}
+
+li [class^="icon-"], li [class*=" icon-"] {
+    display: inline-block;
+    text-align: center;
+    width: 1.25em;
+}
+
+#navigation {
+    /* 1. Navigation wrapper */
+}
+#highlighted {
+    /* 2. Highlighted (below header) wrapper */
+}
+#content {
+    /* 3. Content wrapper */
+}
+#content-below {
+    /* 4. Content Below wrapper */
+}
+#footer {
+    /* 5. Footer wrapper */
+}
+/*
+ * --------------------------------------------------
+ * 2. Colours
+ *--------------------------------------------------
+ */
+/*
+ * --------------------------------------------------
+ * 3. Responsiveness/media queries
+ *--------------------------------------------------
+ */
+@media (max-width: 979px) {
+    /* Navbar Collapsed (mobile) */
+}
+@media (min-width: 980px) {
+    /* Navbar Expanded (desktop) */
+}
+@media (min-width: 1200px) {
+    /* Responsive: Large desktop and up (wide) */
+}
+@media (max-width: 979px) {
+    /* Responsive: Mobile to desktop (common for all narrow devices) */
+}
+@media (min-width: 768px) and (max-width: 979px) {
+    /* Responsive: Tablet to desktop (normal) */
+}
+@media (max-width: 767px) {
+    /* Responsive: Landscape phone to desktop/tablet (narrow) */
+}
+@media (max-width: 480px) {
+    /* Responsive: Up to Landscape phone (mobile) */
+}
+/*
+ * --------------------------------------------------
+ * 4. Misc
+ * Other stuff
+ *--------------------------------------------------
+ */
